@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <style>
+        .main{
+            position:absolute;
+            transform: translate(-50% ,-50%);
+            top: 50%;
+            left: 50%;
+            font-size: 130px;
+        }
+    </style>
+</head>
+<body style="background-color: #414141; color: #fff;">
+    <div class="main">
+        <h3 id="time">00:00:00</h3>
+        <button onclick=startf() id="start">start</button>
+        <button onclick=stopf() id="stop">stop</button>
+        <button onclick=restartf() id="restart">Restart</button>
+    </div>
+     
+    <script src="main.js"></script>
+</body>
+</html>
